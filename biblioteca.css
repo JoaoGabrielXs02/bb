@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    padding: 20px;
+}
+.header {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+.album {
+    background-color: #181818;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.album:hover {
+    transform: scale(1.05);
+}
+.album img {
+    width: 100%;
+    border-radius: 5px;
+}
+.album-title {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.artist {
+    font-size: 0.875rem;
+    color: #b3b3b3;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="artista.css">
+  <title>RÉGLER</title>
+</head>
+<body>
+  <div class="container">
+    <div class="background">
+      <img src="grande/hungriagrande.jpg" alt="Hungria" class="background-image">
+    </div>
+    <div class="content">
+      <div class="verified">
+        <img src="verified-icon.png" alt="Artista verificado" class="verified-icon">
+        <span>Artista verificado</span>
+      </div>
+      <h1>Hungria</h1>
+      <p>15.682.250 ouvintes mensais</p>
+    </div>
+    <div class="popular">
+      <h2>Populares</h2>
+      <div class="music-list">
+        <div class="musica" onclick="irpramusica('hungria/amorefe.mp4','Amor e Fé', 'hungria/amorefe.jpg')">
+          <span class="number">1</span>
+          <div class="details">
+            <span class="title">Qual é Seu Desejo</span>
+            <span class="artista">Hungria</span>
+          </div>
+          <span class="duration">2:45</span>
+        </div>
+        <div class="musica" onclick="irpramusica('hungria/insonia.mp4','Insônia', 'hungria/insonia.jpg')">
+            <span class="number">2</span>
+            <div class="details">
+              <span class="title">Insônia</span>
+              <span class="artista">Hungria</span>
+            </div>
+            <span class="duration">3:36</span>
+          </div>
+          <div class="musica" onclick="irpramusica('hungria/lua.mp4','Lua', 'hungria/lua.jpg')">
+            <span class="number">2</span>
+            <div class="details">
+              <span class="title">Lua</span>
+              <span class="artista">Hungria</span>
+            </div>
+            <span class="duration">3:36</span>
+          </div>
+    </div>
+  </div>
+  <script src="playlists.js"></script>
+</body>
+</html>

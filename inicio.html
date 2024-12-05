@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RÈGLER</title>
+  <link rel="stylesheet" href="inicio.css">
+  <link rel="icon" href="Img/logo.jpeg" type="image/jpeg">
+  
+
+</head>
+<body>
+    <div class="background-overlay"></div>
+  <header>
+    
+    <nav>
+      <img src="Img/logo.jpeg" alt="Logo">
+      <ul>
+        <a href="biblioteca.html">Biblioteca</a>
+        <a href="#">Perfil</a>
+        <a href="teladelogin.html">Sair</a>
+      </ul>
+    </nav>
+  </header> 
+  <div class="card-container">
+    <div class="card" onclick="playlist_orochi()">
+      <img src="Img/playlist1.jpg" alt="Orochi">
+      <div class="card-content">
+        <h3>Orochi</h3>
+      </div>
+    </div>
+    <div class="card" onclick="playlist_tz()">
+      <img src="Img/playlist2.jpg" alt="Tz"> 
+      <div class="card-content">
+        <h3>Tz da Coronel</h3>
+      </div>
+    </div>
+    <div class="card" onclick="playlist_funk()">
+      <img src="Img/playlist3.jpg" alt="Funk Hits">
+      <div class="card-content">
+        <h3>Funk Hits</h3>
+      </div>
+    </div>
+  </div>
+<div id="wrapper">
+  <div class="radio-container">
+    <div class="radio-card"  style="background-image: url('imagem/vemca.jpg');"
+    onclick="irmusica('mus/vemca.mp3', 'Vem Cá', 'imagem/vemca.jpg')">
+      <div class="radio-header"></div>
+      <p>Pelé MilFlow</p>
+    </div>
+    <div class="radio-card"  style="background-image: url('imagem/poesia6.jpg');"
+    onclick="irmusica('mus/poesia.mp3', 'Poesia Acústica 6', 'imagem/poesia6.jpg')">
+      <div class="radio-header"></div>
+      <p></p>
+    </div>
+    <div class="radio-card"  style="background-image: url('imagem/melhorsó.jpg');"
+    onclick="irmusica('mus/melhor.mp3', 'Melhor Só', 'imagem/melhorsó.jpg')">
+      <div class="radio-header"></div>
+      <p>KayBlack</p>
+    </div>
+    <div class="radio-card"  style="background-image: url('imagem/musicadeamor.jpg');"
+    onclick="irmusica('mus/musicadeamor.mp3', 'Música de Amor Nunca Mais', 'imagem/musicadeamor.jpg')">
+      <div class="radio-header"></div>
+      <p>BK</p>
+    </div>
+    <div class="radio-card" style="background-image: url('imagem/sagradoprofano.jpg');"
+    onclick="irmusica('mus/profano.mp3', 'Sagrado Profano', 'imagem/sagradoprofano.jpg')">
+      <div class="radio-header"></div>
+      <p>Sagrado Profano</p>
+    </div>
+  </div>
+</div>
+  
+<div id="wrapper">
+  
+  <div class="radio-container">
+    <div class="radio-card"  style="background-image: url('imagem/ilusao.jpg');"
+    onclick="irmusica('mus/ilusao.mp3', 'Ilusão', 'imagem/ilusao.jpg')">
+      <div class="radio-header"></div>
+      <p>Filipe Ret</p>
+    </div>
+    <div class="radio-card"  style="background-image: url('imagem/anosluzz.jpg');"
+    onclick="irmusica('mus/AnosLuz.mp3', 'Deixe-me Ir', 'imagem/anosluzz.jpg')">
+      <div class="radio-header"></div>
+      <p>Matuê</p>
+    </div>
+    <div class="radio-card"  style="background-image: url('imagem/fotodaunha.jpg');"
+    onclick="irmusica('mus/unha.mp3', 'Foto da unha', 'imagem/fotodaunha.jpg')">
+      <div class="radio-header"></div>
+      <p>L7 - Veigh</p>
+    </div>
+    <div class="radio-card"  style="background-image: url('imagem/jogano7.jpg');"
+    onclick="irmusica('mus/joga7.mp3', 'Joga no 7', 'imagem/jogano7.jpg')">
+      <div class="radio-header"></div>
+      <p>Tz da Coronel</p>
+    </div>
+    <div class="radio-card" style="background-image: url('imagem/kilo.jpg');"
+    onclick="irmusica('mus/deixe.mp3', 'Deixe-me Ir', 'imagem/kilo.jpg')">
+      <div class="radio-header"></div>
+      <p>1 Kilo</p>
+    </div>
+  </div>
+  <div id="wrapper">
+    
+    <div class="radio-container">
+      <div class="radio-card2"  style="background-image: url('artistas/anitta.webp');"
+      onclick="irartista_anita()">
+        <div class="radio-header"></div>
+        <p></p>
+      </div>
+      <div class="radio-card2"  style="background-image: url('artistas/hungria.jpg');"
+      onclick="irartista_hungria()">
+        <div class="radio-header"></div>
+        <p></p>
+      </div>
+      <div class="radio-card2"  style="background-image: url('artistas/manobrown.webp');"
+      onclick="irartista_manobrow()">
+        <div class="radio-header"></div>
+        <p></p>
+      </div>
+      <div class="radio-card2"  style="background-image: url('artistas/tody.jpg');"
+      onclick="irartista_tody()">
+        <div class="radio-header"></div>
+        <p></p>
+      </div>
+      <div class="radio-card2" style="background-image: url('artistas/ryan.jpg');"
+      onclick="irartista_ryan()">
+        <div class="radio-header"></div>
+        <p></p>
+      </div>
+      
+    </div>
+</div>
+</div>
+
+  <script src="inicio.js"></script>
+</body>
+</html>

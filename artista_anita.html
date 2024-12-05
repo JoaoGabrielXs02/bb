@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="artista.css">
+  <title>RÉGLER</title>
+  <link rel="icon" href="Img/logo.jpeg" type="image/jpeg">
+</head>
+<body>
+  <div class="container">
+    <div class="background">
+      <img src="artistas/anitta.webp" alt="Hungria" class="background-image">
+    </div>
+    <div class="content">
+      <div class="verified">
+        <img src="Img/verificado.png" alt="Artista verificado" class="verified-icon">
+        <span>Artista verificado</span>
+      </div>
+      <h1>Anitta</h1>
+      <p>15.682.250 ouvintes mensais</p>
+    </div>
+    <div class="popular">
+      <h2>Populares</h2>
+      <div class="music-list">
+        <div class="musica" onclick="irpramusica('anitta/down.mp4','Downtown', 'anitta/downtown.jpeg')">
+          <span class="number">1</span>
+          <div class="details">
+            <span class="title">Downtown</span>
+            <span class="artista">Anitta</span>
+          </div>
+          <span class="duration">2:45</span>
+        </div>
+        <div class="musica" onclick="irpramusica('anitta/meiga.mp4','Meiga', 'anitta/meigaeabusada.png')">
+            <span class="number">2</span>
+            <div class="details">
+              <span class="title">Meiga e Abusada</span>
+              <span class="artista">Anitta</span>
+            </div>
+            <span class="duration">3:36</span>
+          </div>
+          <div class="musica" onclick="irpramusica('anitta/menina.mp4','Menina Má', 'anitta/meninama.png')">
+            <span class="number">2</span>
+            <div class="details">
+              <span class="title">Menina Má</span>
+              <span class="artista">Anitta</span>
+            </div>
+            <span class="duration">3:36</span>
+          </div>
+    </div>
+  </div>
+  <script src="playlists.js"></script>
+</body>
+</html>
